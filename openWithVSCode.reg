@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\Open with VS Code]
+@="Edit with VS Code"
+"Icon"="\path, 0"
+
+[HKEY_CLASSES_ROOT\*\shell\Open with VS Code\command]
+@="\path \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\vscode]
+@="Open folder with VS Code"
+"Icon"="\path, 0"
+
+[HKEY_CLASSES_ROOT\Directory\shell\vscode\command]
+@="\path \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\vscode]
+@="Open folder with VS Code"
+"Icon"="\path, 0"
+    
+[HKEY_CLASSES_ROOT\Directory\Background\shell\vscode\command]
+@="\path \"%V\""
