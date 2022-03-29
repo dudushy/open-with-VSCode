@@ -84,5 +84,8 @@ Add option to open folder/file with VS Code [Win]
     - It should pop up 2 warnings.
         <br>
         ![warning1](/img/warning1.png "Press 'Yes'")
+        >Press 'Yes'
         <br>
+        
         ![warning2](/img/warning2.png "Press 'OK'")
+        >Press 'OK'
