@@ -3,21 +3,28 @@ Add option to open folder/file with VS Code [Win]
 
 1. Get VSCode path.
     - Search for `Visual Studio Code` in the windows search box.
-    ![step1](/img/step1.png "Search 'Visual Studio Code'")
-    <br>
+        <br>
+        ![step1](/img/step1.png "Search 'Visual Studio Code'")
+        <br><br>
     - Right click on it, then click on **Open file location**.
-    ![step2](/img/step2.png "Open file location")
-    <br>
+        <br>
+        ![step2](/img/step2.png "Open file location")
+        <br><br>
     - It should open a window like this
-    ![step3](/img/step3.png)
-    <br>
+        <br>
+        ![step3](/img/step3.png)
+        <br><br>
     - Right click on **Visual Studio Code**, then click on **Properties**.
-    ![step4](/img/step4.png "Properties")
-    <br>
+        <br>
+        ![step4](/img/step4.png "Properties")
+        <br><br>
     - Now copy all the text inside the **Target:** field, this will be our `path`.
-    ![step5](/img/step5.png "Copy Target Path")
-    <br>
+        <br>
+        ![step5](/img/step5.png "Copy Target Path")
+        <br><br>
+
 1. Create a `.txt` file.
+
 1. Edit `.txt` file content.
     - First, copy and paste the code below in the `.txt` file
         ```reg
@@ -70,8 +77,12 @@ Add option to open folder/file with VS Code [Win]
         >
         >[HKEY_CLASSES_ROOT\Directory\Background\shell\vscode\command]
         >@="\"C:\Users\User\AppData\Local\Programs\Microsoft VS Code\Code.exe" \"%V\""
+
 1. Save file as `.reg`.
+
 1. Execute `.reg` file.
     - It should pop up 2 warnings.
-    ![warning1](/img/warning1.png "Press 'Yes'")
-    ![warning2](/img/warning2.png "Press 'OK'")
+        <br>
+        ![warning1](/img/warning1.png "Press 'Yes'")
+        <br>
+        ![warning2](/img/warning2.png "Press 'OK'")
