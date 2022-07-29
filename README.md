@@ -53,7 +53,7 @@ Add option to open folder/file with VS Code [Win]
         ```
     
     - Now replace `path` with the text you got from target propertie.
-        > Mine version looks like this:
+        > My version looks like this:
         > ```reg
         >Windows Registry Editor Version 5.00
         >
